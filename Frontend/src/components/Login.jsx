@@ -40,12 +40,12 @@ const Login = () => {
   return (
     <>
       <Link to="/">
-              <Button variant="secondary">Back</Button>
+              <Button variant="success">Back</Button>
         </Link>
       <div className="container d-flex justify-content-center align-items-center vh-100">
        
-      <div className="card p-4 shadow-lg">
-        <h2 className="text-center mb-4">Login</h2>
+      <div className="card p-4 shadow-lg bg-dark">
+        <h2 className="text-center mb-4 text-light" >Login</h2>
         {message && <div className="alert alert-danger">{message}</div>}
         <form onSubmit={handleSubmit}>
           <input type="email" name="email" className="form-control mb-3" placeholder="Email" onChange={handleChange} required />

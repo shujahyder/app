@@ -9,7 +9,7 @@ function App() {
   return (
     // <AuthContext.Provider value={{name:"sdasd"}}>
     <AuthProvider>
-      <div className="App" style={{ backgroundColor: "#8758ff" }}>
+      <div className="App" style={{ backgroundColor: "black" }}>
         <Router>
           <Routes>
             <Route path="/" exact element={<TodoWrapper />} />

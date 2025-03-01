@@ -46,15 +46,15 @@ export const TodoWrapper = () => {
     <>
       <div className="mb-5">
         <Link to="/login" className="me-3">
-              <Button variant="primary">Login</Button>
+              <Button variant="dark">Login</Button>
         </Link>
         <Link to="/signup">
-              <Button variant="primary">SignUp</Button>
+              <Button variant="dark">SignUp</Button>
         </Link>
       </div>
       <div className="TodoWrapper">
        
-      <h1 style={{ color: 'white' }}>Get Things Done !</h1>
+      <h1 style={{ color: 'white' }}>Your Daily Task !</h1>
       <TodoForm addTodo={addTodo} />
       {/* display todos */}
       {todos.map((todo) =>
